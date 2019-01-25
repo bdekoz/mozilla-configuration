@@ -1,3 +1,7 @@
+2019-01-24  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig.android.arm: Add alternatives to MOZILLA_OFFICIAL.
+
 2019-01-23  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	Update for Fire devices.
