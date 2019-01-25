@@ -4,23 +4,30 @@ ac_add_options --enable-optimize
 #ac_add_options --disable-optimize
 
 #ac_add_options --enable-debug
-#ac_add_options --disable-debug
+ac_add_options --disable-debug
 
 #ac_add_options --enable-profiling
+ac_add_options --disable-profiling
 
 # 2019-01-18 disable AV1 for x86 (non-64) builds due to build error
 #ac_add_options --disable-av1
 
-# nightly, beta, release
-#ac_add_options --enable-update-channel=nightly
 ac_add_options --with-branding=mobile/android/branding/nightly
 
+# release, nightly, beta
+#export MOZ_UPDATE_CHANNEL nightly
 export MOZILLA_OFFICIAL=1
+#export NIGHTLY_BUILD=1
+
 export MOZ_TELEMETRY_REPORTING=1
+export MOZ_SERVICES_HEALTHREPORT=1
+
 #export MOZ_ANDROID_POCKET=1
 
 # Build GeckoView/Firefox for Android:
 ac_add_options --enable-application=mobile/android
+ac_add_options --without-adjust-sdk-keyfile
+ac_add_options --without-google-play-services
 
 # Targeting the following architecture.
 # Ensure exactly one --target is uncommented!
