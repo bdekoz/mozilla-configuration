@@ -14,10 +14,13 @@ ac_add_options --disable-profiling
 
 ac_add_options --with-branding=mobile/android/branding/nightly
 
+#export MOZILLA_OFFICIAL=1
+
 # release, nightly, beta
-#export MOZ_UPDATE_CHANNEL nightly
-export MOZILLA_OFFICIAL=1
-#export NIGHTLY_BUILD=1
+export MOZ_UPDATE_CHANNEL nightly
+export NIGHTLY_BUILD=1
+
+#export MOZ_ANDROID_MMA=0
 
 export MOZ_TELEMETRY_REPORTING=1
 export MOZ_SERVICES_HEALTHREPORT=1
