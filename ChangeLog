@@ -1,5 +1,10 @@
 2019-01-28  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
+	* mozconfig.android.arm: Sync.
+	* mozconfig.android.x86: Sync.
+
+2019-01-28  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
 	* mozconfig: Update link.
 	* mozconfig.android.arm: Sync with...
 	* mozconfig.android.x86: ...this.
