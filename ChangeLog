@@ -1,3 +1,7 @@
+2019-02-05  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* scripts: Move runnable scripts into this sub-directory.
+
 2019-01-31  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.android.arm
