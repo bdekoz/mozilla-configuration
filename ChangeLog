@@ -1,3 +1,8 @@
+2019-02-11  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig.linux.x86-64: Add debugging symbols, prefix.
+	Adjust script locations.
+
 2019-02-05  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* scripts: Move runnable scripts into this sub-directory.
