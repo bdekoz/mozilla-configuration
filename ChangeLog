@@ -1,3 +1,11 @@
+2019-03-01  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig: Remove, user symlinks this.
+	* mozconfig.android.arm.debug: New.
+	* mozconfig.android.arm: To ...
+	* mozconfig.android.arm.opt: ...this.
+	* mozconfig.linux.x86-64.opt: New.
+
 2019-02-11  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.linux.x86-64: Add debugging symbols, prefix.
