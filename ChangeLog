@@ -1,5 +1,16 @@
 2019-03-01  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
+	* mozconfig.android.arm64: Remove.
+	* mozconfig.android.x86-64: Remove.
+
+	* mozconfig.linux.x86-64: To...
+	* mozconfig.linux.x86-64.debug: ...this.
+
+	* mozconfig.android.arm.debug: Sync.
+	* mozconfig.linux.x86-64.debug: Sync.
+
+2019-03-01  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
 	* mozconfig: Remove, user symlinks this.
 	* mozconfig.android.arm.debug: New.
 	* mozconfig.android.arm: To ...
