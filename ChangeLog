@@ -1,3 +1,8 @@
+2019-03-18  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig.android.arm.debug-mem-dmd: Disambiguate mem profiles, new.
+	* mozconfig.android.arm.debug-mem-valgrind: New.
+
 2019-03-14  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.linux.x86-64.mem-debug: DND/valgrind configs.
