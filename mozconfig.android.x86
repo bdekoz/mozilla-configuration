@@ -24,6 +24,9 @@ ac_add_options --enable-application=mobile/android
 ac_add_options --without-adjust-sdk-keyfile
 ac_add_options --without-google-play-services
 
+# Explicitly enable headless for Android
+ac_add_options --enable-marionette
+
 # Targeting the following architecture.
 # Ensure exactly one --target is uncommented!
 # ac_add_options --target=arm-linux-androideabi
