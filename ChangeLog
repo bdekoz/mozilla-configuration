@@ -1,3 +1,8 @@
+2019-05-10  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig.android.arm.opt
+	* mozconfig.linux.x86-64.opt
+
 2019-04-04  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.android.*: Explicitly enable headless.
