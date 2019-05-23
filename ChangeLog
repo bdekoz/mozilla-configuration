@@ -1,3 +1,7 @@
+2019-05-23  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig.linux.x86-64.debug: Use custom debug flags.
+
 2019-05-10  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.android.arm.opt
