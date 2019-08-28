@@ -1,3 +1,8 @@
+2019-08-28  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig.android.arm64.debug: New.
+	* mozconfig.android.arm64.opt: Same.
+
 2019-06-07  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.android.arm.debug: Disable opt.
