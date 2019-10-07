@@ -1,14 +1,14 @@
 mk_add_options AUTOCLOBBER=1
 
 #ac_add_options --enable-optimize
-ac_add_options --disable-optimize
+#ac_add_options --disable-optimize
 
 ac_add_options --enable-debug
 #ac_add_options --disable-debug
 
 ac_add_options --enable-debug-symbols
 
-ac_add_options --enable-profiling
+#ac_add_options --enable-profiling
 #ac_add_options --disable-profiling
 
 # 2019-01-18 disable AV1 for x86 (non-64) builds due to build error
@@ -16,9 +16,7 @@ ac_add_options --enable-profiling
 
 # release, nightly, beta
 ac_add_options --with-branding=mobile/android/branding/nightly
-#ac_add_options --with-branding=browser/branding/nightly
 
-export MOZILLA_OFFICIAL=1
 export MOZ_TELEMETRY_REPORTING=1
 export MOZ_SERVICES_HEALTHREPORT=1
 
@@ -26,9 +24,6 @@ export MOZ_SERVICES_HEALTHREPORT=1
 ac_add_options --enable-application=mobile/android
 ac_add_options --without-adjust-sdk-keyfile
 ac_add_options --without-google-play-services
-
-# Explicitly enable headless for Android
-ac_add_options --enable-marionette
 
 # Targeting the following architecture.
 # Ensure exactly one --target is uncommented!
