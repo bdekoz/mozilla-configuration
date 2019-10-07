@@ -1,7 +1,7 @@
 2019-10-07  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* Update all to new android SDKs, etc.
-	
+
 2019-08-28  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.android.arm64.debug: New.
