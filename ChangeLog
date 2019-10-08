@@ -1,3 +1,7 @@
+2019-10-08  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* scripts/*: Consitent canonical directory.
+
 2019-10-07  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* Update all to new android SDKs, etc.
