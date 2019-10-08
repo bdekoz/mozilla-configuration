@@ -1,5 +1,9 @@
 2019-10-08  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
+	* moz-environment.tcsh: Fix locations here too.
+
+2019-10-08  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
 	* scripts/run-ff-browse.sh: Fix locations.
 
 2019-10-08  Benjamin De Kosnik  <bdekoz@mozilla.com>
