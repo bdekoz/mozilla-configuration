@@ -1,3 +1,8 @@
+2019-11-18  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* mozconfig.android.x86-64.debug: New.
+	* mozconfig.android.x86 -> mozconfig.android.x86.debug: Rename.
+
 2019-10-08  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* moz-environment.tcsh: Fix locations here too.
