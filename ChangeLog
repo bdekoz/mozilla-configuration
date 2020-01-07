@@ -1,3 +1,7 @@
+2020-01-07  Benjamin De Kosnik  <bdekoz@mozilla.com>
+
+	* scripts/run-ff-browse.sh: Add URL argument.
+
 2019-11-18  Benjamin De Kosnik  <bdekoz@mozilla.com>
 
 	* mozconfig.android.x86-64.debug: New.
