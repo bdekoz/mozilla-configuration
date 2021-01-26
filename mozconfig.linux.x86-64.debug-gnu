@@ -8,14 +8,13 @@ mk_add_options AUTOCLOBBER=1
 
 # debug builds
 ac_add_options --disable-optimize
-ac_add_options --enable-debug
-#ac_add_options --enable-debug="-ggdb3 -fno-inline -O0"
+ac_add_options --enable-debug="-ggdb3 -fno-inline -O0"
 #ac_add_options --enable-debug="-g3 -ggdb -O0"
 
 #ac_add_options --enable-debug-symbols="-gdwarf-4"
-ac_add_options --enable-debug-symbols
+#ac_add_options --enable-debug-symbols
 
-ac_add_options --enable-profiling
+#ac_add_options --enable-profiling
 #ac_add_options --disable-profiling
 
 # 2019-01-18 disable AV1 for x86 (non-64) builds due to build error
@@ -23,7 +22,7 @@ ac_add_options --enable-profiling
 
 # release, nightly, beta
 #ac_add_options --with-branding=mobile/android/branding/nightly
-ac_add_options --with-branding=browser/branding/nightly
+#ac_add_options --with-branding=browser/branding/nightly
 
 ac_add_options --prefix=/home/bkoz/bin/H-firefox-nightly-x86-64
 
@@ -37,4 +36,6 @@ export MOZ_SERVICES_HEALTHREPORT=1
 #ac_add_options --without-adjust-sdk-keyfile
 #ac_add_options --without-google-play-services
 
-
+#https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Firefox_With_Clang_On_Linux
+export CC=gcc
+export CXX=g++
