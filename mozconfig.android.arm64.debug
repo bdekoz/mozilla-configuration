@@ -28,7 +28,7 @@ ac_add_options --without-adjust-sdk-keyfile
 #ac_add_options --without-google-play-services
 
 # Explicitly enable headless for Android
-ac_add_options --enable-marionette
+#ac_add_options --enable-marionette
 
 # Targeting the following architecture.
 # Ensure exactly one --target is uncommented!
@@ -39,7 +39,7 @@ ac_add_options --enable-marionette
 
 # With the following Android SDK and NDK:
 ac_add_options --with-android-sdk="/home/bkoz/.mozbuild/android-sdk-linux"
-ac_add_options --with-android-ndk="/home/bkoz/.mozbuild/android-ndk-r20"
+ac_add_options --with-android-ndk="/home/bkoz/.mozbuild/android-ndk-r26c"
 
 # With the following compiler toolchain:
 CC="/home/bkoz/.mozbuild/clang/bin/clang"
