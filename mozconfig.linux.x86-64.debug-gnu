@@ -40,4 +40,4 @@ export MOZ_SERVICES_HEALTHREPORT=1
 #https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Firefox_With_Clang_On_Linux
 export CC=gcc
 export CXX=g++
-ac_add_options --without-sysroot
+#ac_add_options --without-sysroot

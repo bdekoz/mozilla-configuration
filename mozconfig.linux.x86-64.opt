@@ -11,8 +11,9 @@ ac_add_options --disable-debug
 ac_add_options --enable-profiling
 #ac_add_options --disable-profiling
 
-# 2019-01-18 disable AV1 for x86 (non-64) builds due to build error
 #ac_add_options --disable-av1
+ac_add_options --disable-watchman
+
 
 # release, nightly, beta
 #ac_add_options --with-branding=mobile/android/branding/nightly
@@ -20,9 +21,9 @@ ac_add_options --with-branding=browser/branding/nightly
 
 ac_add_options --prefix=/home/bkoz/bin/H-firefox-nightly-x86-64
 
-export MOZILLA_OFFICIAL=1
-export MOZ_TELEMETRY_REPORTING=1
-export MOZ_SERVICES_HEALTHREPORT=1
+#export MOZILLA_OFFICIAL=1
+#export MOZ_TELEMETRY_REPORTING=1
+#export MOZ_SERVICES_HEALTHREPORT=1
 
 # Build GeckoView/Firefox for Android:
 #ac_add_options --enable-application=mobile/android
